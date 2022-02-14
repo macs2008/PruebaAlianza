@@ -1,0 +1,41 @@
+<app-header></app-header>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>
+        <a target="_blank">
+          <img class="social" src="https://camacolvalle.org.co/wp-content/uploads/2019/04/alianza-logo.jpg" width="200">
+
+        </a>
+        <div>
+          <a>
+            <img src="https://i.pinimg.com/originals/bc/df/1d/bcdf1dc5c5f2d1b6665f7f3ea8740ec7.jpg" width="100" />
+            <a href="http://example.com/" style="color:#6f00ff;"><b>CLIENTS</b></a>
+          </a>
+
+        </div>
+        <div>
+          <a href="#" class="list-group-item list-group-item-action " style="color:#6f00ff;">
+            <a class="nav-link" routerLink="/clientes">Clients</a>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action " style="color:#6f00ff;">
+            Client look history
+          </a>
+          <a href="#" class="list-group-item list-group-item-action " style="color:#6f00ff;">
+            Emergency PIN <br> Configuration
+          </a>
+          <a href="#" class="list-group-item list-group-item-action " style="color:#6f00ff;">
+            Emergency PIN <br>History
+          </a>
+        </div>
+      </ul>
+      <section class="twitter">
+        <div class="container">
+          <div class="container my-3">
+            <router-outlet></router-outlet>
+          </div>
+        </div>
+      </section>
+    </nav>
+  </aside>
+</main>
